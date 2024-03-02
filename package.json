@@ -1,27 +1,26 @@
 {
-    "name": "spacekit-core",
-    "version": "1.0.0",
-    "description": "Nucleo operacional do SpaceKit Framework",
-    "main": "load.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "release": "standard-version",
-      "commit": "cz commit && standard-version && git push && git push --tags"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tihhgoncalves/spacekit-core.git"
-    },
-    "keywords": [
-      "vue",
-      "nuxt",
-      "framework"
-    ],
-    "author": "Tihh Gonçalves <tihhgoncalves@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/tihhgoncalves/spacekit-core/issues"
-    },
-    "homepage": "https://github.com/tihhgoncalves/spacekit-core#readme"
-  }
-  
+  "name": "spacekit-core",
+  "version": "1.1.0",
+  "description": "Nucleo operacional do SpaceKit Framework",
+  "main": "load.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "commit": "cz commit && standard-version && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tihhgoncalves/spacekit-core.git"
+  },
+  "keywords": [
+    "vue",
+    "nuxt",
+    "framework"
+  ],
+  "author": "Tihh Gonçalves <tihhgoncalves@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tihhgoncalves/spacekit-core/issues"
+  },
+  "homepage": "https://github.com/tihhgoncalves/spacekit-core#readme"
+}
