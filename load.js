@@ -1,5 +1,6 @@
 import * as components from './components/index.js';
 import routes from './routes.js';
+import store from './store';
 
 const install = (app) => {
   Object.entries(components).forEach(([componentName, component]) => {
@@ -7,6 +8,8 @@ const install = (app) => {
   });
 };
 
+// Exportações nomeadas
+export { routes, store };
 
-
-export default { install, routes };
+// Exportação padrão
+export default { install };
