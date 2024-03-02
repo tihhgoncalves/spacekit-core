@@ -6,7 +6,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "release": "standard-version",
-      "commit": "cz commit && npm run release && git push && git push --tags"
+      "commit": "cz commit && standard-version && git push && git push --tags"
     },
     "repository": {
       "type": "git",
